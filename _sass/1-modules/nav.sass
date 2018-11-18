@@ -1,0 +1,214 @@
+// nav
+ul.navigation
+    transition: all 0.3s ease-in
+    position: absolute
+    top: 0
+    // left: 0
+    right: 0
+    z-index: 900
+    max-width: 1000px
+    // display: flex
+    // justify-content: space-between
+    margin:  40px
+    padding: 5px
+    @media screen and (max-width: 600px)
+        padding: 35px 20px
+
+    // here make the index column
+    li
+        display: inline-block
+        //space between words:
+        padding-right: 30px
+        @media screen and (max-width: 600px)
+            display: none
+        a
+            color: $white
+            transition: all 0.15s ease-in
+            font-size: 1em
+        a:hover
+            color: darken($white, 50%)
+    // don't want left space of the last "blog"
+    li:last-of-type
+        padding-right: 0
+
+ul.navigation.nav-dark
+    li
+        a
+            color: $primary
+        a:hover
+            color: darken($white, 25%)
+
+a.nav-logo
+    transition: all 0.3s ease-in
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    z-index: 3
+    max-width: 100px
+    height: 40px
+    margin-left: 100px
+    margin-top: 40px
+    // padding: 40px
+    svg
+        height: 100%
+        width: auto
+    a.nav-logo.nav-dark
+        svg
+            path
+                fill: $primary
+
+ul.internal-nav-links-wrapper
+    transition: all 0.3s ease-in
+    position: absolute
+    top: 0
+    // left: 0
+    right: 0
+    z-index: 900
+    max-width: 1000px
+    // display: flex
+    // justify-content: space-between
+    margin:  40px
+    padding: 5px
+    @media screen and (max-width: 600px)
+        padding: 35px 20px
+    li
+        display: inline-block
+        //space between words:
+        padding-right: 30px
+        @media screen and (max-width: 600px)
+            display: none
+        a
+            color: $black
+            transition: all 0.15s ease-in
+            font-size: 1em
+        a:hover
+            color: darken($white, 50%)
+    li:last-of-type
+        padding-right: 0
+
+    ul.internal-nav-links-wrapper.nav-dark
+        li
+            a
+                color: $primary
+            a:hover
+                color: darken($white, 25%)
+
+// toggle nav
+div.nav-toggle-open-wrapper, div.nav-toggle-close-wrapper
+    position: absolute
+    height: 50px
+    width: 50px
+    display: flex
+    top: 0
+    right: 0
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    overflow: visible
+    svg
+        width: 24px
+        height: auto
+div.nav-toggle-open-wrapper
+    z-index: 999
+    svg
+        stroke: $white
+.nav-toggle-open-wrapper.nav-dark
+    svg
+        stroke: $primary
+div.nav-toggle-close-wrapper
+    svg
+        stroke: $primary
+div.toggled-nav-wrapper
+    transition: all 0.2s ease-in-out
+    display: flex
+    align-items: flex-end
+    flex-direction: column
+    position: fixed
+    top: 0
+    // left: 0
+    right: 0
+    bottom: 0
+    z-index: 1002
+    width: 300px
+    height: 100%
+    padding: 35px 20px 35px 0
+    background: $white
+    transform: translateX(300px)
+    .internal-nav-links-wrapper, .external-links-wrapper
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        text-align: right
+    hr
+        width: 100%
+        margin: 30px 0 60px 0
+    div.internal-nav-links-wrapper
+        margin-top: 50px
+        height: 192px
+        a.internal-link-wrapper
+            display: flex
+            flex-direction: row
+            justify-content: flex-end
+            align-items: center
+    div.external-links-wrapper
+        height: 122px
+        a.external-link-wrapper
+            display: flex
+            flex-direction: row
+            justify-content: flex-end
+            align-items: center
+div.external-link-icon, div.internal-link-icon
+    height: 30px
+    width: 30px
+    margin-left: 20px
+    background:
+        size: contain
+        position: center center
+        repeat: no-repeat
+.internal-link-icon-home
+    background-image: url('../img/icons/home.svg')
+.internal-link-icon-stories
+    background-image: url('../img/icons/stories.svg')
+.internal-link-icon-blog
+    background-image: url('../img/icons/blog.svg')
+.internal-link-icon-contact
+    background-image: url('../img/icons/email.svg')
+.external-link-icon-facebook
+    background-image: url('../img/icons/facebook.svg')
+.external-link-icon-Twitter
+    background-image: url('../img/icons/twitter.svg')
+.external-link-icon-Instagram
+    background-image: url('../img/icons/instagram.svg')
+//  to click the navigation, appear the "home-stories-blog"..
+div.nav-toggle-body-overlay
+    transition: opacity 0.2s ease-in-out, transform 0s ease-in-out 0.2s
+    display: block
+    position: fixed
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    z-index: 1000
+    width: 100%
+    height: 100%
+    background: rgba(0,0,0,0.7)
+    opacity: 0
+    transform: translateX(100%)
+html.nav-open
+    body
+        overflow: hidden
+        position: fixed
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+    div.nav-toggle-body-overlay
+        transition: opacity 0.3s ease-in-out, transform 0s
+        opacity: 1
+        transform: translateX(0)
+    div.toggled-nav-wrapper
+        transform: translateX(0)
+@media screen and(min-width: 600px)
+    div.nav-toggle-open-wrapper, div.nav-toggle-close-wrapper, div.toggled-nav-wrapper, div.nav-toggle-body-overlay
+        display: none

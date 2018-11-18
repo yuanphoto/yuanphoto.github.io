@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<header class="stories-index-header-main" style="background-image:url('{{ site.baseurl }}{{ page.featImg }}')">
+    <div class="overlay-dark"></div>
+    {% include nav.html %}
+    <div class="stories-index-title">
+        <h1 class="featured-stories-post-title"> Stories </h1>
+        <a href="" class="read-featured-stories-post"> see our stories </a>
+    </div>
+</header>
+<div class="StoriesPostContentWrapper">
+  {{ content }}
+</div>
+
+<!-- for adding page images -->
+<!-- {% for item in site.images %}
+<div class="lightbox" id="lightbox{{ forloop.index }}">
+  <div class="table">
+    <div class="table-cell">
+      <img class="close" src="/img/close.svg" />
+      <img class="next" src="/img/next.svg" />
+      <img class="prev" src="/img/prev.svg" />
+      <div class="item" style="background: url('{{ item.image }}') center center no-repeat; background-size: cover;">
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+$('.next').click(function(){
+  $(this).closest('.lightbox').hide().next().show();
+});
+
+
+<script src="/js/jquery.min.js"></script>
+{% include lightbox.html %}
+</body>
+</html> -->

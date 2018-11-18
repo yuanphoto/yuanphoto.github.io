@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<header class="stories-index-header-main" style="background-image:url('{{ site.baseurl }}/assets/photography/gts_view/gts_view-4-original.JPG')">
+    <div class="overlay-dark"></div>
+    {% include nav.html %}
+    <div class="stories-index-title">
+        <h1 class="featured-stories-post-title"> Observational experiments in natural forest </h1>
+        <a href="{{ site.baseurl }}/stories/gts/" class="read-featured-stories-post">Read</a>
+    </div>
+</header>
+
+<div class="blogIndexWrapper">
+  {% for post in site.posts %}
+    {% if post.categories contains 'forest' %}
+      <div class="blogPostContainer">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="blogPostFeatImg" style="background-image:url('{{ site.baseurl }}/assets/{{ post.featImg }}');"></a>
+        <a href="" class="blogCategory">{{ post.categories }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="blogTitle">{{ post.title }}</a>
+        <p class="blogExcept">{{ post.excerpt }}</a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

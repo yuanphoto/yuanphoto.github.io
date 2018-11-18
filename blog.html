@@ -1,0 +1,25 @@
+---
+layout: default
+title: "blogs"
+---
+<!-- only read one header; offset: is the latest post show -->
+{% for post in site.posts offset: 0 limit: 1 %}
+    <header class="blog-index-header-main">
+        <div class="overlay-light"></div>
+        {% include nav.html %}
+    </header>
+{% endfor %}
+
+
+<div class="blogIndexWrapper">
+  {% for post in site.posts %}
+    {% if post.categories contains 'love' %}
+      <div class="blogPostContainer">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="blogPostFeatImg" style="background-image:url('{{ site.baseurl }}/assets/{{ post.featImg }}');"></a>
+        <a href="" class="blogCategory">{{ post.categories }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="blogTitle">{{ post.title }}</a>
+        <p class="blogExcept">{{ post.excerpt }}</a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

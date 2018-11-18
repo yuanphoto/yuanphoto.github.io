@@ -1,0 +1,125 @@
+//Header for the blog page
+
+header.blog-index-header-main
+    position: relative
+    z-index: 2
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    width: 100%
+    height: 100px
+    background:
+        size: cover
+        position: center center
+        repear: no-repeat
+    .overlay-light
+        background: $white
+        opacity: .9
+        position: absolute
+        z-index: 2
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+header.post-img-header
+    position: relative
+    z-index: 2
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    width: 100%
+    height: 200px
+    background: $primary
+        size: cover
+        position: center center
+        repear: no-repeat
+    .overlay-dark
+        background: $primary
+        opacity: .35
+        // z-index: 2
+        position: absolute
+        z-index: 2
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+.post-index-title
+    position: relative
+    z-index: 2
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+h1.featured-blog-post-title
+    max-width: 600px
+    font-size: 2.125em
+    font-weight: 500
+    line-height: 1.2em
+    color: $black
+    margin: 20px 0 0 0
+
+.blogIndexWrapper
+    // max-width: 600px
+    // margin: 160px auto 100px auto
+    width: 100%
+    max-width: 1100px
+    margin: 100px auto 0 auto
+    padding: 0 10px
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    align-items: baseline
+    flex-wrap: wrap
+    @media screen and(max-width: 700px)
+        padding: 0
+.blogPostContainer
+    transition: all 0.4s ease-in
+    width: 100%
+    max-width: 320px
+    margin: 0 5px 50px 5px
+    // sometimes in Sarfi posts don't wrap together
+    flex-basis: 320
+    @media screen and(max-width: 700px)
+        max-width: 100%
+        // force it to be erge to earge
+        margin: 0 0 120px 0
+        flex-basis: 100%
+.blogPostFeatImg
+    display: block
+    width: 100%
+    height: 200px
+    margin: 0 auto 20px auto
+    background:
+        size: cover
+        position: center center
+        repeat: no-repeat
+.blogCategory
+    display: block
+    text-align: center
+    margin: 0 auto 15px auto
+    color: $secondary
+    text-transform: uppercase
+    font-family: $font-stack
+    font-size: .5em
+    letter-spacing: 1px
+.blogTitle
+    display: block
+    text-align: center
+    margin: 0 auto 20px auto
+    font-family: $font-stack
+    font-size: 1.2em
+    font-weight: 500
+    color: $highlight
+.blogExcept
+    display: block
+    text-align: center
+    margin: auto
+    color: $secondary
+    font-family: $font-stack-two
+    font-size: .8em
+    line-height: 2em
+//add some space in between each of the posts
+.blogCategory, .blogTitle, .blogExcept
+    padding: 0 20px

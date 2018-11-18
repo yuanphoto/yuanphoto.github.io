@@ -1,0 +1,158 @@
+//Header for the blog page
+header.stories-index-header-main
+    position: relative
+    margin-top: 0
+    z-index: 2
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    width: 100%
+    height: 600px
+    background: $primary
+        size: cover
+        position: center center
+        repear: no-repeat
+    .stories-index-title
+        position: relative
+        z-index: 3
+        text-align: center
+    .overlay-dark
+        background: $primary
+        opacity: .35
+        // z-index: 2
+        position: absolute
+        z-index: 2
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+    h1.featured-stories-post-title
+        max-width: 600px
+        font-size: 3.125em
+        font-weight: 500
+        line-height: 1.2em
+        padding: 0 20px 5px 20px
+        color: $white
+        margin: 30px 0
+        @media screen and(max-width: 500px)
+            font-size: 2.5em
+        @media screen and(max-width: 400px)
+            font-size: 2.1875em
+        @media screen and(max-width: 360px)
+            font-size: 1.875em
+    // read with white box
+    a.read-featured-stories-post
+        color: $white
+        font-size: 0.75em
+        font-weight: 500
+        padding: .5em 2em
+        border: 2px solid $white
+        border-radius: 4px
+        text-transform: uppercase
+        &:hover
+            background: $white
+            color: $highlight
+.StoriesWrapper
+    width: 100%
+    overflow: hidden
+    .StoriesPreview
+        margin: 100px 0
+        height: 80vh
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        .text
+            max-width: 400px
+            margin: 0 20px 0 100px
+            h1
+                font-size: 2.5em
+                font-weight: 200
+            p
+                font-size: 1em
+                line-height: 2em
+                margin: 10px 0
+            h6
+                font-size: .6em
+                font-weight: 800
+                font-family: $font-stack-two
+                color: $primary
+                margin: 30px 0 10px 0
+                opacity: 0.8
+            a
+                display: inline-block
+                color: $highlight
+                font-family: $font-stack-two
+                font-weight: 700
+                font-size: .8em
+                padding: .25em 1em
+                border: 2px solid $highlight
+                border-radius: 3px
+                &:hover
+                    color: $secondary
+                    border: 2px solid $secondary
+        .imgWrapper
+            width: 50%
+            height: 100%
+            img
+                height: 100%
+                width: auto
+        @media screen and(max-width: 815px)
+            flex-direction: column
+            height: auto
+            .text
+                margin: 0 20px 50px 20px
+            .imgWrapper
+                height: 300px
+    // reverse: second story
+    .StoriesPreview.reverse
+        margin: 100px 0
+        height: 80vh
+        display: flex
+        flex-direction: row-reverse
+        justify-content: space-between
+        align-items: center
+        .text
+            max-width: 400px
+            margin: 0 100px 0 20px
+            h1
+                font-size: 2.5em
+                font-weight: 200
+            p
+                font-size: 1em
+                line-height: 2em
+                margin: 10px 0
+            h6
+                font-size: .6em
+                font-weight: 800
+                font-family: $font-stack-two
+                color: $primary
+                margin: 30px 0 10px 0
+                opacity: 0.8
+            a
+                display: inline-block
+                color: $highlight
+                font-family: $font-stack-two
+                font-weight: 700
+                font-size: .8em
+                padding: .25em 1em
+                border: 2px solid $highlight
+                border-radius: 3px
+                &:hover
+                    color: $secondary
+                    border: 2px solid $secondary
+        .imgWrapper
+            width: 50%
+            height: 100%
+            img
+                height: 100%
+                width: auto
+                float: right
+        @media screen and(max-width: 815px)
+            flex-direction: column
+            height: auto
+            .text
+                margin: 0 20px 50px 20px
+            .imgWrapper
+                height: 300px

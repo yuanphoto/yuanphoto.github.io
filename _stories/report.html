@@ -1,0 +1,25 @@
+---
+layout: default
+title: "blogs"
+---
+<!-- only read one header; offset: is the latest post show -->
+{% for report in site.reports offset: 0 limit: 1 %}
+<header class="blog-index-header-main">
+    <div class="overlay-light"></div>
+    {% include nav.html %}
+</header>
+<!-- couldn't find post.url ??-->
+<!-- mypageurl is the url of the page -->
+{% endfor %}
+
+<img src="{{ site.baseurl }}/assets/research/newsletter-2.jpg"/>
+<div class="blogIndexWrapper">
+  {% for report in site.reports %}
+    <div class="blogreportContainer">
+      <a href="{{ site.baseurl }}{{ report.url }}" class="blogPostFeatImg" style="background-image:url('{{ site.baseurl }}/assets/photography/{{ report.featImg }}');"></a>
+      <a href="" class="blogCategory">{{ report.categories }}</a>
+      <a href="{{ site.baseurl }}{{ report.url }}" class="blogTitle">{{ report.title }}</a>
+      <p class="blogExcept">{{ report.excerpt }}</a>
+    </div>
+  {% endfor %}
+</div>

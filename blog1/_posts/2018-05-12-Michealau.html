@@ -1,0 +1,37 @@
+---
+layout: default
+title: "Michelau"
+categories: love
+featImg: photography/Micheallau/Micheallau-4-thumbnail.jpg
+excerpt: "Oeschinen See, a blue diomand among the montains "
+author: yuanyuanhuang
+support: [jquery, gallery]
+---
+<header class="post-img-header" style="background-image:url('{{ site.baseurl }}/assets/photography/Micheallau/Micheallau-4-2500.jpg')">
+    <div class="overlay-dark"></div>
+    {% include nav.html %}
+</header>
+<div class="post-index-title">
+    <h1 class="featured-blog-post-title"> Michelau </h1>
+</div>
+
+<div class="galleryIndexWrapper">
+
+  <h3>
+    <p>Micheallau</p>
+    <br/>
+    <p>nice garden</p> </h3>
+  <h1>{{ gallery.title }}</h1>
+  <div class="imgContainer">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> -->
+    <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script> -->
+    <!-- Actual includes needed for the gallery -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.19/js/lightgallery-all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.19/css/lightgallery.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.0/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.2/picturefill.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script> -->
+    {% include gallery-layout.html gallery=site.data.galleries.Micheallau %}
+  </div>
+</div>

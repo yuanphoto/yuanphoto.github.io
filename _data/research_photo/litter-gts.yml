@@ -1,0 +1,25 @@
+picture_path: litter-gts
+
+pictures:
+
+- filename: litter-gts-3
+  original: litter-gts-3-original.jpg
+  thumbnail: litter-gts-3-thumbnail.jpg
+- filename: litter-gts-2
+  original: litter-gts-2-original.jpg
+  thumbnail: litter-gts-2-thumbnail.jpg
+- filename: litter-gts-6
+  original: litter-gts-6-original.jpg
+  thumbnail: litter-gts-6-thumbnail.jpg
+- filename: litter-gts-7
+  original: litter-gts-7-original.jpg
+  thumbnail: litter-gts-7-thumbnail.jpg
+- filename: litter-gts-4
+  original: litter-gts-4-original.jpg
+  thumbnail: litter-gts-4-thumbnail.jpg
+- filename: litter-gts-1
+  original: litter-gts-1-original.jpg
+  thumbnail: litter-gts-1-thumbnail.jpg
+- filename: litter-gts-5
+  original: litter-gts-5-original.jpg
+  thumbnail: litter-gts-5-thumbnail.jpg

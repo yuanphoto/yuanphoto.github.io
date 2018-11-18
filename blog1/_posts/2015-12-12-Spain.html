@@ -1,0 +1,27 @@
+---
+layout: default
+title: "Spain"
+categories: love
+featImg: photography/2015-12-25-Spain/2015-12-25-Spain-15-thumbnail.jpg
+excerpt: "Beautiful butterflies"
+author: yuanyuanhuang
+---
+<!-- only read one header; offset: is the latest post show -->
+<header class="post-img-header" style="background-image:url('{{ site.baseurl }}/assets/photography/2015-12-25-Spain/2015-12-25-Spain-25-original.jpg')">
+    <div class="overlay-dark"></div>
+    {% include nav.html %}
+</header>
+
+
+<div class="blogIndexWrapper">
+  {% for post in site.posts %}
+    {% if post.categories contains 'Spain' %}
+      <div class="blogPostContainer">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="blogPostFeatImg" style="background-image:url('{{ site.baseurl }}/assets/{{ post.featImg }}');"></a>
+        <a href="" class="blogCategory">{{ post.categories }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="blogTitle">{{ post.title }}</a>
+        <p class="blogExcept">{{ post.excerpt }}</a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

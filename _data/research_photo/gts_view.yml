@@ -1,0 +1,164 @@
+picture_path: gts_view
+
+pictures:
+
+- filename: gts_view-4
+  original: gts_view-4-original.jpg
+  thumbnail: gts_view-4-thumbnail.jpg
+- filename: gts_view-5
+  original: gts_view-5-original.jpg
+  thumbnail: gts_view-5-thumbnail.jpg
+- filename: gts_view-6
+  original: gts_view-6-original.jpg
+  thumbnail: gts_view-6-thumbnail.jpg
+- filename: gts_view-7
+  original: gts_view-7-original.jpg
+  thumbnail: gts_view-7-thumbnail.jpg
+- filename: gts_view-8
+  original: gts_view-8-original.jpg
+  thumbnail: gts_view-8-thumbnail.jpg
+- filename: gts_view-9
+  original: gts_view-9-original.jpg
+  thumbnail: gts_view-9-thumbnail.jpg
+- filename: gts_view-10
+  original: gts_view-10-original.jpg
+  thumbnail: gts_view-10-thumbnail.jpg
+- filename: gts_view-11
+  original: gts_view-11-original.jpg
+  thumbnail: gts_view-11-thumbnail.jpg
+- filename: gts_view-1
+  original: gts_view-1-original.jpg
+  thumbnail: gts_view-1-thumbnail.jpg
+- filename: gts_view-2
+  original: gts_view-2-original.jpg
+  thumbnail: gts_view-2-thumbnail.jpg
+- filename: gts_view-3
+  original: gts_view-3-original.jpg
+  thumbnail: gts_view-3-thumbnail.jpg
+- filename: gts_view-12
+  original: gts_view-12-original.jpg
+  thumbnail: gts_view-12-thumbnail.jpg
+- filename: gts_view-13
+  original: gts_view-13-original.jpg
+  thumbnail: gts_view-13-thumbnail.jpg
+- filename: gts_view-14
+  original: gts_view-14-original.jpg
+  thumbnail: gts_view-14-thumbnail.jpg
+- filename: gts_view-15
+  original: gts_view-15-original.jpg
+  thumbnail: gts_view-15-thumbnail.jpg
+- filename: gts_view-16
+  original: gts_view-16-original.jpg
+  thumbnail: gts_view-16-thumbnail.jpg
+- filename: gts_view-17
+  original: gts_view-17-original.jpg
+  thumbnail: gts_view-17-thumbnail.jpg
+# - filename: gts_view-18
+#   original: gts_view-18-original.jpg
+#   thumbnail: gts_view-18-thumbnail.jpg
+- filename: gts_view-19
+  original: gts_view-19-original.jpg
+  thumbnail: gts_view-19-thumbnail.jpg
+- filename: gts_view-20
+  original: gts_view-20-original.jpg
+  thumbnail: gts_view-20-thumbnail.jpg
+- filename: gts_view-21
+  original: gts_view-21-original.jpg
+  thumbnail: gts_view-21-thumbnail.jpg
+- filename: gts_view-22
+  original: gts_view-22-original.jpg
+  thumbnail: gts_view-22-thumbnail.jpg
+- filename: gts_view-23
+  original: gts_view-23-original.jpg
+  thumbnail: gts_view-23-thumbnail.jpg
+- filename: gts_view-24
+  original: gts_view-24-original.jpg
+  thumbnail: gts_view-24-thumbnail.jpg
+- filename: gts_view-25
+  original: gts_view-25-original.jpg
+  thumbnail: gts_view-25-thumbnail.jpg
+# - filename: gts_view-26
+#   original: gts_view-26-original.jpg
+#   thumbnail: gts_view-26-thumbnail.jpg
+# - filename: gts_view-27
+#   original: gts_view-27-original.jpg
+#   thumbnail: gts_view-27-thumbnail.jpg
+# - filename: gts_view-28
+#   original: gts_view-28-original.jpg
+#   thumbnail: gts_view-28-thumbnail.jpg
+# - filename: gts_view-29
+#   original: gts_view-29-original.jpg
+#   thumbnail: gts_view-29-thumbnail.jpg
+# - filename: gts_view-30
+#   original: gts_view-30-original.jpg
+#   thumbnail: gts_view-30-thumbnail.jpg
+# - filename: gts_view-31
+#   original: gts_view-31-original.jpg
+#   thumbnail: gts_view-31-thumbnail.jpg
+# - filename: gts_view-32
+#   original: gts_view-32-original.jpg
+#   thumbnail: gts_view-32-thumbnail.jpg
+# - filename: gts_view-33
+#   original: gts_view-33-original.jpg
+#   thumbnail: gts_view-33-thumbnail.jpg
+# - filename: gts_view-34
+#   original: gts_view-34-original.jpg
+#   thumbnail: gts_view-34-thumbnail.jpg
+# - filename: gts_view-35
+#   original: gts_view-35-original.jpg
+#   thumbnail: gts_view-35-thumbnail.jpg
+# - filename: gts_view-36
+#   original: gts_view-36-original.jpg
+#   thumbnail: gts_view-36-thumbnail.jpg
+# - filename: gts_view-37
+#   original: gts_view-37-original.jpg
+#   thumbnail: gts_view-37-thumbnail.jpg
+# - filename: gts_view-38
+#   original: gts_view-38-original.jpg
+#   thumbnail: gts_view-38-thumbnail.jpg
+# - filename: gts_view-39
+#   original: gts_view-39-original.jpg
+#   thumbnail: gts_view-39-thumbnail.jpg
+# - filename: gts_view-40
+#   original: gts_view-40-original.jpg
+#   thumbnail: gts_view-40-thumbnail.jpg
+# - filename: gts_view-41
+#   original: gts_view-41-original.jpg
+#   thumbnail: gts_view-41-thumbnail.jpg
+# - filename: gts_view-42
+#   original: gts_view-42-original.jpg
+#   thumbnail: gts_view-42-thumbnail.jpg
+#
+# - filename: gts_view-43
+#   original: gts_view-43-original.jpg
+#   thumbnail: gts_view-43-thumbnail.jpg
+# - filename: gts_view-44
+#   original: gts_view-44-original.jpg
+#   thumbnail: gts_view-44-thumbnail.jpg
+# - filename: gts_view-45
+#   original: gts_view-45-original.jpg
+#   thumbnail: gts_view-45-thumbnail.jpg
+# - filename: gts_view-46
+#   original: gts_view-46-original.jpg
+#   thumbnail: gts_view-46-thumbnail.jpg
+# - filename: gts_view-47
+#   original: gts_view-47-original.jpg
+#   thumbnail: gts_view-47-thumbnail.jpg
+# - filename: gts_view-48
+#   original: gts_view-48-original.jpg
+#   thumbnail: gts_view-48-thumbnail.jpg
+# - filename: gts_view-49
+#   original: gts_view-49-original.jpg
+#   thumbnail: gts_view-49-thumbnail.jpg
+# - filename: gts_view-50
+#   original: gts_view-50-original.jpg
+#   thumbnail: gts_view-50-thumbnail.jpg
+# - filename: gts_view-51
+#   original: gts_view-51-original.jpg
+#   thumbnail: gts_view-51-thumbnail.jpg
+# - filename: gts_view-52
+#   original: gts_view-52-original.jpg
+#   thumbnail: gts_view-52-thumbnail.jpg
+# - filename: gts_view-53
+#   original: gts_view-53-original.jpg
+#   thumbnail: gts_view-53-thumbnail.jpg

@@ -1,0 +1,163 @@
+picture_path: BEFmain
+
+pictures:
+- filename: BEFmain-1
+  original: BEFmain-1-original.jpg
+  thumbnail: BEFmain-1-thumbnail.jpg
+- filename: BEFmain-2
+  original: BEFmain-2-original.jpg
+  thumbnail: BEFmain-2-thumbnail.jpg
+- filename: BEFmain-3
+  original: BEFmain-3-original.jpg
+  thumbnail: BEFmain-3-thumbnail.jpg
+- filename: BEFmain-4
+  original: BEFmain-4-original.jpg
+  thumbnail: BEFmain-4-thumbnail.jpg
+- filename: BEFmain-5
+  original: BEFmain-5-original.jpg
+  thumbnail: BEFmain-5-thumbnail.jpg
+- filename: BEFmain-6
+  original: BEFmain-6-original.jpg
+  thumbnail: BEFmain-6-thumbnail.jpg
+- filename: BEFmain-7
+  original: BEFmain-7-original.jpg
+  thumbnail: BEFmain-7-thumbnail.jpg
+- filename: BEFmain-8
+  original: BEFmain-8-original.jpg
+  thumbnail: BEFmain-8-thumbnail.jpg
+- filename: BEFmain-9
+  original: BEFmain-9-original.jpg
+  thumbnail: BEFmain-9-thumbnail.jpg
+- filename: BEFmain-10
+  original: BEFmain-10-original.jpg
+  thumbnail: BEFmain-10-thumbnail.jpg
+- filename: BEFmain-11
+  original: BEFmain-11-original.jpg
+  thumbnail: BEFmain-11-thumbnail.jpg
+- filename: BEFmain-12
+  original: BEFmain-12-original.jpg
+  thumbnail: BEFmain-12-thumbnail.jpg
+- filename: BEFmain-13
+  original: BEFmain-13-original.jpg
+  thumbnail: BEFmain-13-thumbnail.jpg
+- filename: BEFmain-14
+  original: BEFmain-14-original.jpg
+  thumbnail: BEFmain-14-thumbnail.jpg
+- filename: BEFmain-15
+  original: BEFmain-15-original.jpg
+  thumbnail: BEFmain-15-thumbnail.jpg
+- filename: BEFmain-16
+  original: BEFmain-16-original.jpg
+  thumbnail: BEFmain-16-thumbnail.jpg
+- filename: BEFmain-17
+  original: BEFmain-17-original.jpg
+  thumbnail: BEFmain-17-thumbnail.jpg
+- filename: BEFmain-18
+  original: BEFmain-18-original.jpg
+  thumbnail: BEFmain-18-thumbnail.jpg
+- filename: BEFmain-19
+  original: BEFmain-19-original.jpg
+  thumbnail: BEFmain-19-thumbnail.jpg
+- filename: BEFmain-20
+  original: BEFmain-20-original.jpg
+  thumbnail: BEFmain-20-thumbnail.jpg
+- filename: BEFmain-21
+  original: BEFmain-21-original.jpg
+  thumbnail: BEFmain-21-thumbnail.jpg
+- filename: BEFmain-22
+  original: BEFmain-22-original.jpg
+  thumbnail: BEFmain-22-thumbnail.jpg
+- filename: BEFmain-23
+  original: BEFmain-23-original.jpg
+  thumbnail: BEFmain-23-thumbnail.jpg
+- filename: BEFmain-24
+  original: BEFmain-24-original.jpg
+  thumbnail: BEFmain-24-thumbnail.jpg
+- filename: BEFmain-25
+  original: BEFmain-25-original.jpg
+  thumbnail: BEFmain-25-thumbnail.jpg
+# - filename: BEFmain-26
+#   original: BEFmain-26-original.jpg
+#   thumbnail: BEFmain-26-thumbnail.jpg
+# - filename: BEFmain-27
+#   original: BEFmain-27-original.jpg
+#   thumbnail: BEFmain-27-thumbnail.jpg
+# - filename: BEFmain-28
+#   original: BEFmain-28-original.jpg
+#   thumbnail: BEFmain-28-thumbnail.jpg
+# - filename: BEFmain-29
+#   original: BEFmain-29-original.jpg
+#   thumbnail: BEFmain-29-thumbnail.jpg
+# - filename: BEFmain-30
+#   original: BEFmain-30-original.jpg
+#   thumbnail: BEFmain-30-thumbnail.jpg
+# - filename: BEFmain-31
+#   original: BEFmain-31-original.jpg
+#   thumbnail: BEFmain-31-thumbnail.jpg
+# - filename: BEFmain-32
+#   original: BEFmain-32-original.jpg
+#   thumbnail: BEFmain-32-thumbnail.jpg
+# - filename: BEFmain-33
+#   original: BEFmain-33-original.jpg
+#   thumbnail: BEFmain-33-thumbnail.jpg
+# - filename: BEFmain-34
+#   original: BEFmain-34-original.jpg
+#   thumbnail: BEFmain-34-thumbnail.jpg
+# - filename: BEFmain-35
+#   original: BEFmain-35-original.jpg
+#   thumbnail: BEFmain-35-thumbnail.jpg
+# - filename: BEFmain-36
+#   original: BEFmain-36-original.jpg
+#   thumbnail: BEFmain-36-thumbnail.jpg
+# - filename: BEFmain-37
+#   original: BEFmain-37-original.jpg
+#   thumbnail: BEFmain-37-thumbnail.jpg
+# - filename: BEFmain-38
+#   original: BEFmain-38-original.jpg
+#   thumbnail: BEFmain-38-thumbnail.jpg
+# - filename: BEFmain-39
+#   original: BEFmain-39-original.jpg
+#   thumbnail: BEFmain-39-thumbnail.jpg
+# - filename: BEFmain-40
+#   original: BEFmain-40-original.jpg
+#   thumbnail: BEFmain-40-thumbnail.jpg
+# - filename: BEFmain-41
+#   original: BEFmain-41-original.jpg
+#   thumbnail: BEFmain-41-thumbnail.jpg
+# - filename: BEFmain-42
+#   original: BEFmain-42-original.jpg
+#   thumbnail: BEFmain-42-thumbnail.jpg
+#
+# - filename: BEFmain-43
+#   original: BEFmain-43-original.jpg
+#   thumbnail: BEFmain-43-thumbnail.jpg
+# - filename: BEFmain-44
+#   original: BEFmain-44-original.jpg
+#   thumbnail: BEFmain-44-thumbnail.jpg
+# - filename: BEFmain-45
+#   original: BEFmain-45-original.jpg
+#   thumbnail: BEFmain-45-thumbnail.jpg
+# - filename: BEFmain-46
+#   original: BEFmain-46-original.jpg
+#   thumbnail: BEFmain-46-thumbnail.jpg
+# - filename: BEFmain-47
+#   original: BEFmain-47-original.jpg
+#   thumbnail: BEFmain-47-thumbnail.jpg
+# - filename: BEFmain-48
+#   original: BEFmain-48-original.jpg
+#   thumbnail: BEFmain-48-thumbnail.jpg
+# - filename: BEFmain-49
+#   original: BEFmain-49-original.jpg
+#   thumbnail: BEFmain-49-thumbnail.jpg
+# - filename: BEFmain-50
+#   original: BEFmain-50-original.jpg
+#   thumbnail: BEFmain-50-thumbnail.jpg
+# - filename: BEFmain-51
+#   original: BEFmain-51-original.jpg
+#   thumbnail: BEFmain-51-thumbnail.jpg
+# - filename: BEFmain-52
+#   original: BEFmain-52-original.jpg
+#   thumbnail: BEFmain-52-thumbnail.jpg
+# - filename: BEFmain-53
+#   original: BEFmain-53-original.jpg
+#   thumbnail: BEFmain-53-thumbnail.jpg
