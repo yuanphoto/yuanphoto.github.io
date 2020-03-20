@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<header class="header-main" style="background-image:url('{{ site.baseurl }}/assets/photography/wedding/wedding-1.jpg')">
+    <div class="overlay-light2"></div>
+    <div class="home-title2">
+        <h1> Wedding </h1>
+        <h3>on wedding day, you will see the most interactions. It's the big day of the couple. They start theit journey from brand new together. With the company of the another half, new life will be shining.</h3>
+    </div>
+</header>
+
+<div class="who-is-she" id="blurb">
+  <h2>Wedding day shooting</h2>
+  <!-- <a href="#blurb" class="home-avatar"></a> -->
+  <p>We offer wedding day shooting,engagement shooting and couple's shooting. <a href="{{ site.twitter_path }} "target = "_blank">Twitter.</p>
+</div>
+
+{% include nav.html %}
+
+
+<div class="blogIndexWrapper">
+  {% for post in site.posts %}
+    {% if post.categories contains 'wedding' %}
+      <div class="blogPostContainer">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="blogPostFeatImg" style="background-image:url('{{ site.baseurl }}/assets/{{ post.featImg }}');"></a>
+        <a href="" class="blogCategory">{{ post.categories }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="blogTitle">{{ post.title }}</a>
+        <p class="blogExcept">{{ post.excerpt }}</a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<hr class="hr">

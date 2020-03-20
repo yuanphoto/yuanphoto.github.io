@@ -2,50 +2,132 @@
 layout: default
 ---
 {% include nav.html %}
-<header class="header-main" style="background-image:url('{{ site.baseurl }}/assets/img/yuan_jungerfrau.jpg')">
-    <div class="overlay-light"></div>
-    <div class="home-title">
-        <!-- <h1> {{ site.title }} </h1> -->
-        <!-- <h3>Ecologist/Photographer</h3> -->
-    </div>
-</header>
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
-<!-- about  -->
-<div class="who-is-she" id="blurb">
-  <h2>who is she?</h2>
-  <!-- <a href="#blurb" class="home-avatar"></a> -->
-  <p>Yuanyuan is an ecological researcher and has a passion in photography. Yuan also enjoys sharing her experiences and thoughts in her <a href="{{ site.baseurl }}/blog">blog</a>. Keep up with new projects she is working on, subscribe to her <a href="#newsletter">newsletter</a> and go follow her on <a href="{{ site.twitter_path }} "target = "_blank">Twitter.</p>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="{{ site.baseurl }}/assets/img/index-1.jpg" >
+    <div class="texts">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="{{ site.baseurl }}/assets/img/index-2.jpg">
+    <div class="texts">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="{{ site.baseurl }}/assets/img/index-3.jpg">
+    <div class="texts">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-<hr />
-<!-- Recent projects -->
-<h2 class="recent-projects">Recent Projects</h2>
-<div class="recent-projects-content-wrapper">
- <!--<div class="project-wrap">
-   <div class="project">
-     <div class="project-img project-img-one"></div>
-     <a href="" target="_blank" class="project-text">
-       <h4>Project title1</h4>
-       <p>Lorem....hiuyfhaiudsyfiauh</p>
-     </a>
-   </div>
- </div>
+<br>
 
- <div class="project-wrap project-wrap-reverse">
-   <div class="project">
-     <div class="project-img project-img-two"></div>
-     <a href="" target="_blank" class="project-text">
-       <h4>Project title2</h4>
-       <p>Lorem....hiuyfhaiudsyfiauh</p>
-     </a>
-   </div>
- </div>-->
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+<div class="who-is-she" id="blurb">
+  <h2>what is interaction?</h2>
+  <!-- <a href="#blurb" class="home-avatar"></a> -->
+  <p>Interaction in statistics means the effect come from the targets only in this special moments. Once there are any elements changed, interaction will change. In figure, you will see two lines interact together instead of parallel, like "X".
+    So we use "InteraXion" as our brand.  InteraXion photography aims to recorod the interaction moments, which shows the emotions, stories at that time in that location. This is unique.
+    Either the interactions of lovers, families, participants, or the interactions in nature, from plants and insects, can show you the diverse and interesting stories in the world.
+  </p>
+  <hr/>
+  <h2>Who is she?</h2>
+  <p>Yuanyuan is photographer and has a passion in recording interaction moments. Yuan also enjoys sharing her experiences and thoughts in her <a href="{{ site.baseurl }}/blog">blog</a>.
+  Keep up with new <a href="{{ site.baseurl }}/blog">projects</a> she is working on and go follow her on <a href="{{ site.twitter_path }} "target = "_blank">Twitter.</p>
+</div>
+
+
+<!-- Services -->
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>Services</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<p>Resize the browser window to see the responsive effect.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="{{ site.baseurl }}/wedding">
+        <img src="{{ site.baseurl }}/assets/photography/wedding/wedding-1.jpg" alt="Mountains" style="width:100%">
+      </a>
+      <h3>Wedding</h3>
+      <p>On wedding day, you will see the most interactions. It's the big day of the couple. They start theit journey from brand new together. With the company of the another half, new life will be shining. We offer wedding day shooting,engagement shooting and couple's shooting.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="{{ site.baseurl }}/family">
+        <img src="{{ site.baseurl }}/assets/photography/family/family-6-thumbnail.jpg" alt="Lights" style="width:100%">
+      </a>
+      <h3>Family</h3>
+      <p>The moments of babies' crying coming to the world, kids' naive smiles or families' hugs tell stories. Family photos can help to record the precious interaction moments and will become more precious with time.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="{{ site.baseurl }}/nature">
+        <img src="{{ site.baseurl }}/assets/photography/nature/nature-4-thumbnail.jpg" alt="Nature" style="width:100%">
+      </a>
+      <h3>Nature</h3>
+      <p>There are lots of diverse creatures' interactions there,  also in your garden. You just didn't see them. I love exploring and capturing the hidden stories. They can be flowers's dance in the middle night, spiders' luch fight in the middle of day, persuit of love with shining color etc. You will enjoy the beautiful world here with the photos.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="{{ site.baseurl }}/event">
+        <img src="{{ site.baseurl }}/assets/photography/ChinaAirEvent/ChinaAirEvent-43.jpg" alt="Mountains" style="width:100%">
+      </a>
+      <h3>Event</h3>
+      <p>We offer events' photo service, including workshops, conferences, anniversaries, parities, talk shows, etc.</p>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  <img src="{{ site.baseurl }}/assets/photography/travel/Zurich/Zurich-1-original.jpg" alt="Bear" style="width:100%">
+  <h3>Some Other Work</h3>
+  <p>Lorem ipsum..</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+
+<!-- Recent projects -->
+<div class="main">
+<h1>Recent Projects</h1>
+<hr>
+
+
+<div class="recent-projects-content-wrapper">
 
  <div class="project-wrap">
    <div class="project">
      <div class="project-img project-img-three"></div>
      <a href="" target="_blank" class="project-text">
-       <h4>Project title3</h4>
-       <p>Lorem....hiuyfhaiudsyfiauh</p>
+       <h4>Culture Interactions</h4>
+       <p>Eastern and Western, how much differences and similarities are there? Let photos be the bridge between the two cultures.</p>
      </a>
    </div>
  </div>
@@ -54,11 +136,12 @@ layout: default
    <div class="project">
      <div class="project-img project-img-four"></div>
      <a href="" target="_blank" class="project-text">
-       <h4>Project title4</h4>
-       <p>Lorem....hiuyfhaiudsyfiauh</p>
+       <h4>People and Career</h4>
+       <p>How do people interact with what they do? From these photos, you will see the colorful diversity of interactions in the world.</p>
      </a>
    </div>
  </div>
+</div>
 </div>
 
 <hr />

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<header class="header-main" style="background-image:url('{{ site.baseurl }}/assets/photography/family/family-26-original.jpg')">
+    <div class="overlay-light2"></div>
+    <div class="home-title2">
+        <h1> Family photo </h1>
+        <h3>The moments of babies' crying coming to the world, kids' naive smiles or families' hugs tell stories. Family photos can help to record the precious interaction moments and will become more precious with time.</h3>
+    </div>
+</header>
+
+
+
+
+<div class="who-is-she" id="blurb">
+  <h2>Family photo shooting</h2>
+  <!-- <a href="#blurb" class="home-avatar"></a> -->
+  <p>We offer family photos service, including newborn baby photos, children photos with parents, birthday party or families reuniun photos. <a href="{{ site.twitter_path }} "target = "_blank">Twitter.</p>
+</div>
+{% include nav.html %}
+
+<div class="galleryIndexWrapper">
+  <h6 class="dropCap"><p>Titlis</p></h6>
+
+  <div class="imgContainer">
+    <h1>{{ gallery.title }}</h1>
+
+    {% include gallery-layout.html gallery=site.data.galleries.family %}
+  </div>
+</div>

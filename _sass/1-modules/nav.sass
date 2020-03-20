@@ -14,6 +14,35 @@ ul.navigation
     @media screen and (max-width: 600px)
         padding: 35px 20px
 
+    .dropdown
+        display: inline-block
+
+
+    .dropdown-content
+        display: none
+        left: 50px
+        margin-top: 5px
+        position: absolute
+        background-color: grey
+        min-width: 100px
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+
+    .dropdown-content a
+        color: black
+        padding: 8px 40px
+        text-decoration: none
+        display: block
+        color: $white
+        transition: all 0.15s ease-in
+        font-size: 1.2em
+        font-family: fantasy
+
+    .dropdown-content a:hover
+        background-color: #f1f1f1
+
+    .dropdown:hover .dropdown-content
+        display: block
+
     // here make the index column
     li
         display: inline-block
@@ -24,9 +53,24 @@ ul.navigation
         a
             color: $white
             transition: all 0.15s ease-in
-            font-size: 1em
+            font-size: 1.2em
+            font-family: fantasy
         a:hover
             color: darken($white, 50%)
+    div.dropdown
+        display: inline-block
+        //space between words:
+        padding-right: 30px
+        @media screen and (max-width: 600px)
+            display: none
+        a.dropbtn
+            color: $white
+            transition: all 0.15s ease-in
+            font-size: 1.2em
+            font-family: fantasy
+        a:hover
+            color: darken($white, 50%)
+
     // don't want left space of the last "blog"
     li:last-of-type
         padding-right: 0
@@ -37,6 +81,19 @@ ul.navigation.nav-dark
             color: $primary
         a:hover
             color: darken($white, 25%)
+    div.dropdown
+        a
+            color: $primary
+        a:hover
+            color: darken($white, 25%)
+        div.dropdown-content
+            background-color: $white
+            a
+                color: $primary
+            a:hover
+                color: darken($white, 25%)
+
+
 
 a.nav-logo
     transition: all 0.3s ease-in
@@ -46,9 +103,9 @@ a.nav-logo
     right: 0
     z-index: 3
     max-width: 100px
-    height: 40px
+    height: 80px
     margin-left: 100px
-    margin-top: 40px
+    margin-top: 10px
     // padding: 40px
     svg
         height: 100%
@@ -170,6 +227,8 @@ div.external-link-icon, div.internal-link-icon
     background-image: url('../img/icons/home.svg')
 .internal-link-icon-stories
     background-image: url('../img/icons/stories.svg')
+.internal-link-icon-project
+    background-image: url('../img/icons/project.svg')
 .internal-link-icon-blog
     background-image: url('../img/icons/blog.svg')
 .internal-link-icon-contact

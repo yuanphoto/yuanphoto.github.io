@@ -32,10 +32,109 @@ header.header-main
             font-weight: 500
             line-height: 1.2em
             padding: 0px 20px 10px 20px
+            color: rgb(249,120,0)
         h3
             font-size: 1.25em
             font-weight: 400
             line-height: 1.2em
+    .home-title2
+        position: relative
+        z-index: 3
+        text-align: left
+        padding-top: 280px
+        h1
+            color: rgb(252, 105, 0)
+            font-size: 2.425em
+            font-weight: 500
+            // font-family: fantasy
+            line-height: 1.2em
+            padding: 0px 20px 10px 0px
+        h3
+            color: $white
+            font-size: 1.25em
+            font-weight: 400
+            line-height: 1.2em
+    .overlay-light2
+        background: rgb(245,190,0)
+        opacity: .5
+        position: absolute
+        z-index: 2
+        top: 380px
+        right: 0
+        bottom: 0
+        left: 0
+.container
+    position: relative
+    max-width: 100%
+    margin: 100px auto
+
+.container .content
+    position: absolute
+    bottom: 0
+    background: rgba(245,190,0,0.5)
+    color: #f1f1f1
+    width: 100%
+    padding: 50px
+    h1
+        color: rgb(252, 105, 0)
+        font-size: 2.425em
+        font-weight: 500
+        font-family: fantasy
+        line-height: 1.2em
+        padding: 0px 20px 10px 0px
+    h3
+        color: $white
+        font-size: 1.25em
+        font-weight: 400
+        line-height: 1.2em
+
+#scroll2
+    width: 100%
+    height: 600px
+    margin: 90px auto
+    z-index: 1
+    // background: #A3CBE0
+    // border: 2px solid #000
+    overflow-x: scroll
+    overflow-y: hidden
+    white-space: nowrap
+    // box-shadow: 0 0 5px #000
+    ul
+        float: left
+        margin-right: -99999em
+        li
+            margin: 0px
+            text-align: center
+            float: left
+            display: inline
+            img
+                margin: 0px 0px 0px 0px
+                max-width: 99.5%
+                max-height: 99.5%
+
+#scroll
+    width: 100%
+    height: 200px
+    margin: 90px auto
+    z-index: 1
+    // background: #A3CBE0
+    // border: 2px solid #000
+    overflow-x: scroll
+    overflow-y: hidden
+    white-space: nowrap
+    // box-shadow: 0 0 5px #000
+    ul
+        float: left
+        margin-right: -99999em
+        li
+            margin: 0px
+            text-align: center
+            float: left
+            display: inline
+            img
+                margin: 0px 0px 0px 0px
+                max-width: 99.5%
+                max-height: 99.5%
 
 
             //who is he
@@ -82,7 +181,7 @@ h2.recent-projects
 .recent-projects-content-wrapper
     margin: 0 auto 100px auto
     // margin-left: 160px
-    max-width: 100px
+    max-width: 400px
     padding: 60px 20px 0px 20px
     display: flex
     flex-direction: column
@@ -111,10 +210,10 @@ h2.recent-projects
                     repeat: no-repeat
             .project-img-three
                 background:
-                    image: url('../img/p4.png')
+                    image: url('../photography/culture/project1.jpg')
             .project-img-four
                 background:
-                    image: url('../img/p3.svg')
+                    image: url('../photography/culture/project2.jpg')
             .project-text
                 min-height: 83px
                 height: 100%

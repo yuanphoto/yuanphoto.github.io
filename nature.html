@@ -1,0 +1,28 @@
+---
+layout: nofoot
+---
+
+<header class="header-main" style="background-image:url('{{ site.baseurl }}/assets/photography/nature/nature-4-original.jpg')">
+    <div class="overlay-light2"></div>
+    <div class="home-title2">
+        <h1> Nature Photos</h1>
+        <h3>There are lots of diverse creatures' interactions there,  also in your garden. You just didn't see them. I love exploring and capturing the hidden stories. They can be flowers's dance in the middle night, spiders' luch fight in the middle of day, persuit of love with shining color etc. You will enjoy the beautiful world here with the photos.</h3>
+    </div>
+</header>
+
+<div class="who-is-she" id="blurb">
+  <h2>Nature Photography</h2>
+  <!-- <a href="#blurb" class="home-avatar"></a> -->
+  <p>There are lots of diverse creatures' interactions there,  also in your garden. You just didn't see them. I love exploring and capturing the hidden stories. They can be flowers's dance in the middle night, spiders' luch fight in the middle of day, persuit of love with shining color etc. You will enjoy the beautiful world here with the photos.  <a href="{{ site.twitter_path }} "target = "_blank">Twitter.</p>
+</div>
+{% include nav.html %}
+
+<div class="galleryIndexWrapper">
+  <h6 class="dropCap"><p>Titlis</p></h6>
+
+  <div class="imgContainer">
+    <h1>{{ gallery.title }}</h1>
+
+    {% include gallery-layout.html gallery=site.data.galleries.nature %}
+  </div>
+</div>
